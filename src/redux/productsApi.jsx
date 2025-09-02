@@ -252,7 +252,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "http://localhost:3000/api/products",
+  baseUrl: "https://nike-backend-iota.vercel.app/api/products",
   credentials: "include",
   prepareHeaders: (headers) => {
     const token = localStorage.getItem("adminToken");
